@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>里路轨迹-里路APP</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34410767-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-34410767-2');
+
+  </script>
+  <style>
+    body {
+      background-color: black;
+      color: #cccccc;
+    }
+    a {
+      color: #ff77a9;
+    }
+    .screenshot img, .screenshot video {
+      max-width: 20vw;
+    }
+  </style>
+</head>
+<body>
+
+<h1>里路轨迹</h1>
+<p>三大特别功能，专为户外无人区设计。</p>
+<p><b>结伴同行：</b>位置实时共享，快捷语音对讲。按住地图即可说话，队友来话自动播放，方便驾车使用。</p>
+<p><b>轨迹地点：</b>随时记录轨迹标记地点，可以分享和导入。即可记录行程，也可参考他人路线规划自己的路径。</p>
+<p><b>离线地图：</b>Google中国卫星图像和地形地图按需离线，再偏的地方也有地图，没有网络也能使用！</p>
+<p>分享数据格式为GeoJSON(ZIP压缩)，可在QGIS或ArcGIS等专业地理软件中使用。生成的KML可导入Google地球或其它软件中大屏查看。自带坐标转换工具，方便使用度分秒和火星坐标。支持GeoJSON特征集合类型的线和点数据导入。</p>
+<p>
+  <small>注意：从1.2版开始，数据格式进行了调整！1.0版和1.1版用户请先以分享的方式将数据备份，卸载应用后再安装新版。1.1版以前的分享文件格式为ZIP，使用“1.1版以前导入”。</small>
+</p>
+<p class="screenshot">
+  <a href="https://storage.googleapis.com/xm-bucket/public/locus/01.jpg" target="_blank"><img src="https://storage.googleapis.com/xm-bucket/public/locus/01.jpg" alt="里路轨迹"></a>
+  <a href="https://storage.googleapis.com/xm-bucket/public/locus/02.jpg" target="_blank"><img src="https://storage.googleapis.com/xm-bucket/public/locus/02.jpg" alt="里路轨迹"></a>
+  <a href="https://storage.googleapis.com/xm-bucket/public/locus/03.jpg" target="_blank"><img src="https://storage.googleapis.com/xm-bucket/public/locus/03.jpg" alt="里路轨迹"></a>
+  <a href="https://storage.googleapis.com/xm-bucket/public/locus/04.jpg" target="_blank"><img src="https://storage.googleapis.com/xm-bucket/public/locus/04.jpg" alt="里路轨迹"></a>
+  <a href="https://storage.googleapis.com/xm-bucket/public/locus/05.jpg" target="_blank"><img src="https://storage.googleapis.com/xm-bucket/public/locus/05.jpg" alt="里路轨迹"></a>
+  <a href="https://storage.googleapis.com/xm-bucket/public/locus/06.jpg" target="_blank"><img src="https://storage.googleapis.com/xm-bucket/public/locus/06.jpg" alt="里路轨迹"></a>
+  <video src="https://storage.googleapis.com/xm-bucket/public/locus/offline.webm" autoplay controls></video>
+</p>
+
+<h2>更新记录</h2>
+<h3 id="release_notes"><a href="https://storage.googleapis.com/xm-bucket/public/locus.apk">下载里路轨迹</a></h3>
+<h3>2.1.0</h3>
+<ul>
+  <li>修改界面配色；</li>
+  <li>优化轨迹位置性能.</li>
+</ul>
+<h3>2.0.5</h3>
+<ul>
+  <li>提升结伴同行功能稳定性</li>
+  <li>提升界面效果</li>
+</ul>
+<h3>2.0.4</h3>
+<ul>
+  <li>更换结伴同行服务器</li>
+</ul>
+<h3>2.0.3</h3>
+<ul>
+  <li>修正虚拟导航栏遮盖功能问题</li>
+</ul>
+<h3>2.0.2</h3>
+<ul>
+  <li>改进界面效果；</li>
+  <li>调整结伴同行组队方式；</li>
+  <li>改进耗时任务的提示</li>
+</ul>
+<h3>2.0.1</h3>
+<ul>
+  <li>提升离线下载稳定性。</li>
+</ul>
+<h3>2.0</h3>
+<ul>
+  <li>结伴同行功能加入，随时组队，位置共享，快速对讲。</li>
+  <li>界面更加简洁实用</li>
+</ul>
+<h3>1.19</h3>
+<ul>
+  <li>修正方向指示丢失问题；</li>
+  <li>修正方向不准问题.</li>
+</ul>
+<h3>1.18</h3>
+<ul>
+  <li>突出海拔信息;</li>
+  <li>分享使用压缩格式以节约空间;</li>
+  <li>修正1.0版导入问题.</li>
+</ul>
+<h3>1.17</h3>
+<ul>
+  <li>增加离线谷歌中国地形；</li>
+  <li>提升离线下载成功率.</li>
+</ul>
+<h3>1.16</h3>
+<ul>
+  <li>修正离线下载完成后不能关闭问题</li>
+</ul>
+  <h3>1.15</h3>
+<ul>
+  <li>1. 默认图层改为谷歌中国卫星图像；</li>
+  <li>2. 修正离线地图下载完成提示错误问题；</li>
+  <li>3. 离线地图下载后可立即显示.</li>
+</ul>
+<h3>1.13</h3>
+<ul>
+  <li>提升离线卫星图像下载速度</li>
+</ul>
+<h3>1.12</h3>
+<ul>
+  <li>解决Android 9.0中在线地图无法显示问题</li>
+</ul>
+<h3>1.11</h3>
+<ul>
+  <li>增加感谢信息</li>
+</ul>
+<h3>1.10</h3>
+<ul>
+  <li>解决离线选择时提示标记不立即显示的问题</li>
+</ul>
+<h3>1.9</h3>
+<ul>
+  <li>提供自助下载离线卫星图像功能</li>
+  <li>解决实时路径标记更新不及时问题</li>
+</ul>
+<h3>1.8</h3>
+<ul>
+  <li>解决启动瞬间旋转屏幕偶尔会崩溃问题</li>
+  <li>地点增加标签和筛选</li>
+  <li>轨迹和地点列表增加全选功能</li>
+  <li>修正我的位置和未保存轨迹点没有转火星坐标问题</li>
+  <li>调整界面信息文字颜色,使其在浅色底图上可见</li>
+  <li>开放GeoJSON特征集合:点,线数据的导入，可参考http://geojson.io中线，点绘制。</li>
+</ul>
+<h3>1.7</h3>
+<ul>
+  <li>增加1.0版ZIP格式分享的导入</li>
+</ul>
+<h3>1.6</h3>
+<ul>
+  <li>记录轨迹时显示经过的地点</li>
+  <li>修正标记方向不准的问题</li>
+  <li>更换更新系统</li>
+</ul>
+
+<h2 id="offline_resources">离线卫星图像</h2>
+<p>页面上方下载最新版本，提供自助下载离线卫星图像功能。</p>
+
+</body>
+</html>
